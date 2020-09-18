@@ -1,0 +1,65 @@
+body{
+    height: 100%;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    border-bottom: .1rem solid black;
+}
+
+.perfil {
+    position: absolute;
+    height: 10rem;
+    top: 0.225rem;
+    left: -1rem;
+
+}
+
+button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.entrar {
+    position: absolute;
+    height: 2.5rem;
+    width: 6rem;
+    left: 14rem;
+    top: 2rem;
+}
+
+.cadastrar {
+    position: absolute;
+    height: 2.5rem;
+    width: 8rem;
+    left: 13rem;
+    top: 5rem;
+}
+
+/*.botao_menu {
+    position: absolute;
+    justify-content: space-evenly;
+}
+*/
+.fechar_menu {
+    position: absolute;
+    top: 5rem;
+    right: -0.3rem;
+    height: 2.5rem;
+    width: 2.5rem;
+}
