@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <title>Pop-Up</title>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tela Inicial</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style_tela_inicial.css">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style_rodrigo.css">
 </head>
 <body>
     <main>
-        <img src="./img/mapa.png" alt="Mapa">
-        <a href="tela_menu.html"><img src="img/seta_direita.png" alt="Seta abrir menu"></a>
-        <img src="img/estacoes_proximas.png" alt="Estações próximas">
-        <!-- POP-UP -->
-        <img src="img/x.png" alt="Fechar pop-up">
-        <a href="tela_estacoes.html">Localização atual</a>
-        <a href="tela_endereco.html">Digitar endereço</a>
+        <div></div>
+        <div class='pop_up'>
+            <button class= 'x' onclick="location.href='tela_inicial.html'" type="button">X</button>
+            <button class= 'botao_pop_up' onclick="location.href='tela_pop_up.html'" type="button">LOCALIZAÇÃO MAIS PRÓXIMA</button>
+            <button class= 'botao_pop_up' onclick="location.href='tela_endereco.html'" type="button">DIGITAR ENFEREÇO</button>
+        </div>
+    <button class= 'botao_estacao' onclick="location.href=''" type="button">ESTAÇÃO MAIS PRÓXIMA</button>
     </main>
 </body>
 </html>
