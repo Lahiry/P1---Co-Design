@@ -37,13 +37,153 @@ main {
     left:0;
 }
 
+h1 {
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.Tesla {
+    position: absolute;
+    top:0;
+    height: 7rem;
+    width: 100%;
+    background-color:rgb(70, 65, 65);
+    border: 0.25rem;
+    border-color: black;
+    border-style: solid;
+}
+
 .tesla {
+    position: absolute;
+    top: 0;
+    left: 0.5rem;
+    height: 5rem;
+    width: 7rem;
+    color: black;
+}
+
+.tesla > h3 {
+    position: absolute;
+    top: 1rem;
+    left: 10rem;
+    width: 10rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.tesla > p {
+    position: absolute;
+    top: 3rem;
+    left: 10rem;
+    width: 10rem;
+}
+
+.Lorem1 {
+    position: absolute;
+    top:0;
+    height: 7rem;
+    width: 100%;
+    background-color:rgb(70, 65, 65);
+    border: 0.25rem;
+    border-color: black;
+    border-style: solid;
+}
+
+.lorem1 {
     position: absolute;
     height: 5rem;
     width: 7rem;
+    top: 5rem;
+    left: 0.5rem;
+    color: black;
 }
 
-h1 {
-    font-size: x-large;
+.lorem1 > h3 {
+    position: absolute;
+    top: 5.5rem;
+    left: 10rem;
+    width: 10rem;
+    text-decoration: none;
+    font-size: 1rem;
 }
+
+.lorem1 > p {
+    position: absolute;
+    top: 7rem;
+    left: 10rem;
+    width: 10rem;
+}
+
+.Lorem2 {
+    position: absolute;
+    top:0;
+    height: 7rem;
+    width: 100%;
+    background-color:rgb(70, 65, 65);
+    border: 0.25rem;
+    border-color: black;
+    border-style: solid;
+}
+
+.lorem2 {
+    position: absolute;
+    height: 5rem;
+    width: 7rem;
+    top: 9.5rem;
+    left: 0.5rem;
+    color: black;
+}
+
+.lorem2 > h3 {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    width: 10rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.lorem2 > p {
+    position: absolute;
+    top: 11.5rem;
+    left: 10rem;
+    width: 10rem;
+}
+
+.Lorem3 {
+    position: absolute;
+    top:0;
+    height: 7rem;
+    width: 100%;
+    background-color:rgb(70, 65, 65);
+    border: 0.25rem;
+    border-color: black;
+    border-style: solid;
+}
+
+.lorem3 {
+    position: absolute;
+    height: 5rem;
+    width: 7rem;
+    left: 0.5rem;
+    top: 14rem;
+    color: black;
+}
+
+.lorem3 > h3 {
+    position: absolute;
+    top: 14.5rem;
+    left: 10rem;
+    width: 10rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.lorem3 > p {
+    position: absolute;
+    top: 16rem;
+    left: 10rem;
+    width: 10rem;
+}
+
 
