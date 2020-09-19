@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    width: 100%;
     font-size: 16px;
 }
 
@@ -7,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    width: 100%;
     background-color: rgb(41, 41, 41);
 }
 
@@ -14,31 +16,27 @@ header {
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     height: 12rem;
     border-bottom: .2rem solid gray;
 }
 
 main {
-    position: relative;
     display: flex;
-    flex-grow: 1;
-    flex-direction: column;
     height: 100%;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     background-color: rgb(85, 82, 82);
 }
 
 a {
-    display: block;
     margin: 1rem;
     border: .1rem solid black;
     border-radius: 1rem;
     padding: 1rem;
     font-size: 2rem;
     color: white;
+    text-decoration: none;
 }
 a:nth-child(2){
     background-color: rgb(31, 168, 54);
@@ -58,27 +56,35 @@ a:nth-child(4){
     left: -1rem;
 }
 
+button {
+    font-size: 23px;
+    background-color: rgb(209, 205, 205);
+}
 .entrar {
     position: absolute;
     height: 2.5rem;
     width: 6rem;
-    left: 14rem;
     top: 2rem;
+    right: 3rem;
+
 }
 
 .cadastrar {
     position: absolute;
     height: 2.5rem;
     width: 8rem;
-    left: 13rem;
     top: 5rem;
+    right: 2rem;
 }
 
 .fechar_menu {
     position: absolute;
-    right: -0.8rem;
     height: 2.5rem;
     width: 2.5rem;
+    top: 50%;
+    right: 0;
     border: 0;
+    margin: 0;
+    padding: 0;
     background-color: transparent;
 }
