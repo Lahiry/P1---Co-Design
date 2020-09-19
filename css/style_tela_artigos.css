@@ -55,7 +55,7 @@ h1 {
 
 .tesla {
     position: absolute;
-    top: 0;
+    top: 0.5rem;
     left: 0.5rem;
     height: 5rem;
     width: 7rem;
@@ -64,7 +64,7 @@ h1 {
 
 .tesla > h3 {
     position: absolute;
-    top: 1rem;
+    top: 1.5rem;
     left: 10rem;
     width: 10rem;
     text-decoration: none;
@@ -73,14 +73,14 @@ h1 {
 
 .tesla > p {
     position: absolute;
-    top: 3rem;
+    top: 3.5rem;
     left: 10rem;
     width: 10rem;
 }
 
 .Lorem1 {
     position: absolute;
-    top:5rem;
+    top: 7.25rem;
     height: 7rem;
     width: 100%;
     background-color:rgb(70, 65, 65);
@@ -116,7 +116,7 @@ h1 {
 
 .Lorem2 {
     position: absolute;
-    top:9.5rem;
+    top:14.5rem;
     height: 7rem;
     width: 100%;
     background-color:rgb(70, 65, 65);
@@ -152,7 +152,7 @@ h1 {
 
 .Lorem3 {
     position: absolute;
-    top:14rem;
+    top:21.75rem;
     height: 7rem;
     width: 100%;
     background-color:rgb(70, 65, 65);
