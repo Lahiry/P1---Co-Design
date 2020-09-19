@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
     <title>SOS</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style_rodrigo.css">
 </head>
 <body>
-    <a href=""></a><a href="tela_tesla.html"><img src="img/seta_esquerda.png" alt="Seta voltar"></a>
     <header>
+        <a class="voltar" href="tela_tesla.html"><img class='icone' src="../img/seta_esquerda.png" alt="Seta voltar"></a>
         <h1>SOS</h1>
     </header>
-    <main>
-        <figure>
-            <img src="img/mapa.png" alt="Mapa mecânica">
-            <img src="img/mecanica" alt="Foto da mecânica">
-            <img src="img/estrelas.png" alt="Estrelas de classificação">
-        </figure>
-        <h4>Mecânica do Zé Trovão</h4>
-        <img src="img/ligar" alt="Ligar mecânica">
+    <main class="sos">
+        <div class="mecanico">
+            <img class="foto_mec" src="../img/user.png" alt="Foto da mecânica">
+            <div>
+                <h4>Mecânica do Zé Trovão</h4>
+                <h6>Avenida Oiapoque, 456</h6>
+                <h6>2,3 Km</h6>
+                <img class="icone" src="../img/5_estrelas.png" alt="Estrelas de classificação">
+                
+            </div>
+        </div>
+        <img class="mapa_insper_pao" src="../img/mapa_insper_mecanico.png" alt="Mapa">
+        <div class="botao_ligar">
+            <img class="icone" src="../img/chamada.png" alt="Ligar">
+            <p class="texto_ligar">Ligar</p>
+        </div>
     </main>
 </body>
 </html>
