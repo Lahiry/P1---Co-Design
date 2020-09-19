@@ -16,10 +16,17 @@ header{
 }
 
 main {
+    height: 100vh;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.mapa{
+    background-image: url(../img/mapa.png); 
+    background-repeat:no-repeat;
+    background-position: center;
 }
 
 .seta_direita{
@@ -53,15 +60,19 @@ main {
 }
 
 .botao_estacao{
+    position: absolute;
     color:white;
     background-color: black;
     font-size: 150%;
     padding: 1rem;
     border-radius: 2rem;
-    justify-self: center;
+    bottom:0;
+    align-self: center;
+    width:100%;
 }
 
 .pop_up{
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-self: center;
