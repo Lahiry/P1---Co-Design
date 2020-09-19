@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <title>Tela Endereço</title>
+
     <meta charset="UTF-8">
-    <title>Endereço</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style_rodrigo.css">
 </head>
 <body>
-    <a href="tela_inicial.html">
-        <img src="img/seta_esquerda.png" alt="Seta voltar">
-    </a>
-    <input type="text" id="pesquisa_endereco" name="pesquisa_endereco" placeholder="Digitar endereço">
-    <button onclick="location.href='tela_estacoes.html'" type="button">
-        Buscar</button>
-    <img src="img/estrela_favoritos.png" alt="Estrela">
-    <h4>Favoritos</h4>
-    <ul>
-        <li><a href="tela_estacoes.html">Insper</a></li>
-        <li><a href="tela_estacoes.html">Casa</a></li>
-    </ul>
-    <img src="img/relogio_historico.png" alt="Relógio">
-    <h4>Histórico</h4>
-    <ul>
-        <li><a href="tela_estacoes.html">Endereço Lorem ipsum 1</a></li>
-        <li><a href="tela_estacoes.html">Endereço Lorem ipsum 2</a></li>
-    </ul>
+    <header>
+        <a href="tela_pop_up.html">
+            <img class='seta_esquerda'src="../img/seta_esquerda.png" alt="Seta voltar">
+        </a>
+        <div class = 'caixa_pesquisa'>
+            <input type="text" id="pesquisa_endereco" name="pesquisa_endereco" placeholder="Digitar endereço">
+            <button  onclick="location.href='tela_estacoes.html'" type="button">
+                Pesquisar
+            </button>
+        </div>
+    </header>
+
+    <main class='itens'>
+        <div class="favoritos">
+            <img class= 'icone' src="../img/estrela_favoritos.png" alt="Estrela">
+            <h4>Favoritos</h4>
+        </div>
+        <ul>
+            <li><a href="tela_estacoes.html">Insper</a></li>
+            <li><a href="tela_estacoes.html">Casa</a></li>
+        </ul>
+        
+        <div class="historico">
+        <img class= 'icone' src="../img/relogio_historico.png" alt="Relógio">
+        <h4>Histórico</h4>
+        </div>
+        <ul>
+            <li><a href="tela_estacoes.html">Endereço Lorem ipsum 1</a></li>
+            <li><a href="tela_estacoes.html">Endereço Lorem ipsum 2</a></li>
+        </ul>
+        
+    </main>
 </body>
 </html>

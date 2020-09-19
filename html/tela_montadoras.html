@@ -1,34 +1,55 @@
 <!DOCTYPE html>
 <html lang = pt-BR>
 <head>
-	<meta charset="utf-8">
 	<title>Tela das Montadoras</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style_fluxo3.css">
 </head>
+
 <body>
-
-	<a href="tela_menu.html"><img src="img/seta_esquerda.png" alt = 'Seta voltar'></a>
-
-	<input type="text" id="pesquisa_carro" name="pesquisa_carro" placeholder="ex: Bolt">
-	<button onclick="location.href='tela_estacoes.html'" type="button">
- 	Buscar</button>
-	
-	<figure>
-
-		<img src="img/tesla_logo.png" alt = "Logo da Tesla">
-		<img src="chevrolet_logo.png" alt = "Logo da Chevrolet">
-		<a href="tela_ford.html">
-			<img src="img/ford_logo.png" alt = "Logo da Ford">
-		</a>
-	
-	</figure>
-
-	<img src="img/botao_filtro.png" alt = 'botão filtro'>
-	<img src="img/botao_favoritos.png" alt = 'botão favoritos'>	
-	<img src="img/botao_anuncio.png" alt = 'botão anúncios'>
-	<img src="img/botao_vender.png" alt = 'botão vender'>
-	<img src="img/botao_chat.png" alt = 'botão de chat'>
-	
+	<header>
 		
+		<a href="tela_menu.html">
+			<img class = "seta_voltar" src="../img/seta_esquerda.png">
+		</a>
+		
+		
+		<div class="caixa_pesquisa">
+			<input type="text" id="pesquisa_carro" name="pesquisa_carro" placeholder="ex: Bolt">
+			<button onclick="location.href='tela_estacoes.html'" type="button">
+			Buscar</button>
+		</div>
+		
+		<div class="botao_filtro_fav">
+			<img src="img/botao_filtro.png" alt = 'botão filtro'>
+			<img src="img/botao_favoritos.png" alt = 'botão favoritos'>	
+		</div>
+	
+	</header>
 
+	<main>
+		<div class="tesla">
+			<img class = 'logo' src="https://via.placeholder.com/150">
+			Tesla
+		</div>
+		<div class="chevrolet">
+			<img class = 'logo' src="https://via.placeholder.com/150">	
+			Chevrolet
+		</div>
+		<div class="ford">
+			<img class = 'logo' src="https://via.placeholder.com/150">
+			<a href="tela_ford.html">Ford</a>
+		
+	</main>
+
+	<footer>
+		<img class = 'botao_anuncio' src="img/botao_anuncio.png" alt = 'botão anúncios'>
+		<img class = 'botao_vender' src="img/botao_vender.png" alt = 'botão vender'>
+		<img class = 'botao_chat' src="img/botao_chat.png" alt = 'botão de chat'>
+	</footer>
 </body>
+
 </html>
