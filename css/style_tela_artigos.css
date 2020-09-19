@@ -42,6 +42,11 @@ h1 {
     text-decoration: underline;
 }
 
+p {
+    text-decoration: underline;
+ }
+
+
 .Tesla {
     position: absolute;
     top:0;
@@ -68,7 +73,7 @@ h1 {
     left: 10rem;
     width: 10rem;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .tesla > p {
@@ -93,23 +98,23 @@ h1 {
     position: absolute;
     height: 5rem;
     width: 7rem;
-    top: 0;
+    top: 0.5rem;
     left: 0.5rem;
     color: black;
 }
 
 .lorem1 > h3 {
     position: absolute;
-    top: 5.5rem;
+    top: 1.5rem;
     left: 10rem;
     width: 10rem;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .lorem1 > p {
     position: absolute;
-    top: 7rem;
+    top: 3.5rem;
     left: 10rem;
     width: 10rem;
 }
@@ -129,23 +134,23 @@ h1 {
     position: absolute;
     height: 5rem;
     width: 7rem;
-    top: 0rem;
+    top: 0.5rem;
     left: 0.5rem;
     color: black;
 }
 
 .lorem2 > h3 {
     position: absolute;
-    top: 10rem;
+    top: 1.5rem;
     left: 10rem;
     width: 10rem;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .lorem2 > p {
     position: absolute;
-    top: 11.5rem;
+    top: 3.5rem;
     left: 10rem;
     width: 10rem;
 }
@@ -166,22 +171,22 @@ h1 {
     height: 5rem;
     width: 7rem;
     left: 0.5rem;
-    top: 0;
+    top: 0.5rem;
     color: black;
 }
 
 .lorem3 > h3 {
     position: absolute;
-    top: 14.5rem;
+    top: 1.5rem;
     left: 10rem;
     width: 10rem;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .lorem3 > p {
     position: absolute;
-    top: 16rem;
+    top: 3.5rem;
     left: 10rem;
     width: 10rem;
 }
