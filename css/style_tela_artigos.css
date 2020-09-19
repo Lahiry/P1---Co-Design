@@ -80,7 +80,7 @@ h1 {
 
 .Lorem1 {
     position: absolute;
-    top:0;
+    top:5rem;
     height: 7rem;
     width: 100%;
     background-color:rgb(70, 65, 65);
@@ -93,7 +93,7 @@ h1 {
     position: absolute;
     height: 5rem;
     width: 7rem;
-    top: 5rem;
+    top: 0;
     left: 0.5rem;
     color: black;
 }
@@ -116,7 +116,7 @@ h1 {
 
 .Lorem2 {
     position: absolute;
-    top:0;
+    top:9.5rem;
     height: 7rem;
     width: 100%;
     background-color:rgb(70, 65, 65);
@@ -129,7 +129,7 @@ h1 {
     position: absolute;
     height: 5rem;
     width: 7rem;
-    top: 9.5rem;
+    top: 0rem;
     left: 0.5rem;
     color: black;
 }
@@ -152,7 +152,7 @@ h1 {
 
 .Lorem3 {
     position: absolute;
-    top:0;
+    top:14rem;
     height: 7rem;
     width: 100%;
     background-color:rgb(70, 65, 65);
@@ -166,7 +166,7 @@ h1 {
     height: 5rem;
     width: 7rem;
     left: 0.5rem;
-    top: 14rem;
+    top: 0;
     color: black;
 }
 
