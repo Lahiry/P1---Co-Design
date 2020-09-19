@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     height: 100%;
     width: 100%;
+    background-color: lightgray;
 }
 
 header {
@@ -19,6 +20,7 @@ header {
 }
 
 main {
+    position: relative;
     display: flex;
     height: 100%;
     flex-direction: column;
@@ -35,5 +37,65 @@ main {
 }
 
 input {
-    
+    position: absolute;
+    height: 3rem;
+    width: 15rem;
+    top: 3rem;
+    left: 4rem;
+    text-align: center;
+    background-color: rgb(61, 56, 56);
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.75;
+}
+
+button {
+    position: absolute;
+    height: 2.5rem;
+    width: 7rem;
+    top: 7rem;
+    left: 8rem;
+}
+
+img {
+    height: 8rem;
+    width: 8rem;
+}
+
+.motor {
+    position: absolute; 
+    top: 5rem;
+    left: 2.5rem;
+}
+
+.bateria {
+    position: absolute; 
+    top: 5rem;
+    left: 13.5rem;
+}
+
+.suspensao {
+    position: absolute; 
+    top: 15rem;
+    left: 2.5rem;
+}
+
+.multimidia {
+    position: absolute; 
+    top: 15rem;
+    left: 13.5rem;
+}
+
+.freio {
+    position: absolute; 
+    top: 25rem;
+    left: 2.5rem;
+}
+
+.pneu {
+    position: absolute; 
+    top: 25rem;
+    left: 13.5rem;
 }
