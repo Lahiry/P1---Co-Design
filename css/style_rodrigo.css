@@ -16,7 +16,6 @@ header{
 }
 
 main {
-    height: 100vh;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -112,6 +111,15 @@ main.itens{
     margin:0.1rem;
 }
 
+.voltar{
+    position: absolute;
+    width: 2.0rem;
+    height: 2.0rem;
+    margin:0.1rem;
+    left: 0;
+    top:0;
+}
+
 div.favoritos, div.historico{
     display: flex;
     flex-direction: row;
@@ -125,7 +133,7 @@ h4{
     font-size: 180%;
 }
 
-ul{
+.lista_enderecos{
     margin-left: 5rem;
 }
 
@@ -199,4 +207,69 @@ div.caixa_pesquisa{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.infos_gerais_foto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.infos_gerais{
+    display: flex;
+    flex-direction: column;
+}
+
+.posto_recarga{
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+h5.checks{
+    justify-self: center;
+}
+
+.check{
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+}
+
+.lista_check{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem;
+    
+}
+
+h5{
+    font-size: 120%;
+    padding: 0.5rem;
+}
+
+.caracteristicas{
+    padding: 0.5rem;
+}
+
+.waze_gmaps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.botao_saida{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+
+.mapa_insper_pao{
+    width: 100%;
+    height: 30%;
 }

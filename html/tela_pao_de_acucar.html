@@ -1,30 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <title>Pão de Açúcar</title>
+
     <meta charset="UTF-8">
-    <title>Estação Pão de Açúcar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style_rodrigo.css">
 </head>
 <body>
-    <a href="tela_estacoes.html">
-        <img src="img/seta_esquerda.png" alt="Seta voltar">
-    </a>
+    <header>
+        <a class='voltar' href="tela_estacoes.html">
+            <img class='voltar' src="../img/seta_esquerda.png" alt="Seta voltar">
+        </a>
+        <h3>Posto de Recarga</h3>
+    </header>
+    <main class="posto_recarga">
+        <div class='infos_gerais_foto'>
+            <img class='icone_grande' src="../img/logo_pao_de_acucar.png" alt="Logo Pão de Açúcar">
+            <div class="infos_gerais">
+                <h4>Pão de Açúcar</h4>
+                <p>Rua Quatá, 300</p>
+                <p>6,9km</p>
+                <img class="icone" src="../img/4_estrelas.png" alt="Estrelas de classificação">
+                <p>Aberto até as 22hrs</p>
+            </div>
+        </div>
+        
+        <div class="check">
+            <h4 class="caracteristicas">Características</h4>
+            <ul>
+                <li class='lista_check'><img class="icone" src="../img/check.png" alt="Check"><h5 class="checks">Café</h5></li>
+                <li class='lista_check'><img class="icone" src="../img/check.png" alt="Check"><h5 class="checks">Mercado</h5></li>
+                <li class='lista_check'><img class="icone" src="../img/check.png" alt="Check"><h5 class="checks">Banheiro</h5></li>
+                <li class='lista_check'><img class="icone" src="../img/check.png" alt="Check"><h5 class="checks">Caixa eletrônico</h5></li>
+            </ul>
+        </div>
 
-    <img src="img/logo_pao_de_acucar.png" alt="Logo Pão de Açúcar">
-    <h3>Pão de Açúcar</h3>
-    <p>Rua Quatá, 300</p>
-    <p>6,9km</p>
-    <img src="img/estrelas.png" alt="Estrelas de classificação">
-    <p>Aberto até as 22hrs</p>
-    <ul>
-        <li><img src="img/check.png" alt="Check">Café</li>
-        <li><img src="img/check.png" alt="Check">Mercado</li>
-        <li><img src="img/check.png" alt="Check">Banheiro</li>
-        <li><img src="img/check.png" alt="Check">Caixa eletrônico</li>
-    </ul>
-
-    <img src="img/preview_mapa.png" alt="Mapa caminho até a estação">
-    <a href="https://www.waze.com"><img src="img/waze.png" alt="Logo Waze"></a>
-    <a href="https://www.google.com/maps"><img src="img/gmaps.png" alt="Gmaps"></a>
-
+        <img class="mapa_insper_pao" src="../img/mapa_insper_pao.png" alt="Mapa">
+        <div class="waze_gmaps">
+            <a class="botao_saida" href="https://www.waze.com"><img class="icone" src="../img/waze.png" alt="Logo Waze"><h5>Waze</h5></a>
+            <a class="botao_saida" href="https://www.google.com/maps"><img class="icone" src="../img/gmaps.png" alt="Gmaps"><h5>GMaps</h5></a>
+        </div>
+    </main> 
 </body>
 </html>
