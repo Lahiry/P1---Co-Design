@@ -130,7 +130,7 @@ div.favoritos, div.historico{
 }
 
 h4{
-    font-size: 180%;
+    font-size: 160%;
 }
 
 .lista_enderecos{
@@ -272,4 +272,89 @@ h5{
 .mapa_insper_pao{
     width: 100%;
     height: 30%;
+}
+
+.sos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.mecanico{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border: 0.2rem solid black;
+}
+
+.foto_mec{
+    width: 5.5em;
+    height: 5.5rem;
+}
+
+.texto_ligar{
+    font-size: 130%;
+    align-self: center;
+    margin-left: 1rem;
+}
+
+.botao_ligar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding: 0.8rem;
+    border: 0.2rem solid black;
+    border-radius:1rem;
+}
+
+.titulo_tesla{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+    
+}
+
+.main_problemas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.texto_tesla{
+    font-size: 350%;
+}
+
+.icone_tesla{
+    width: 5rem;
+    height: 5rem;
+}
+
+.problemas{
+    padding: 1rem;
+    border: 0.2rem solid black;
+}
+
+.lista_ol{
+    margin-left: 1rem;
+    padding: 0.3rem;
+}
+
+.pedir_sos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    align-self: center;
+    font-size: 140%;
+}
+
+
+.botao_sos{
+    align-self: center;
+    padding: 0.8rem;
+    border: 0.2rem solid black;
+    border-radius:1rem;
+    
 }
