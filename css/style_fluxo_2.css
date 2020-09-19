@@ -9,6 +9,9 @@ body {
     flex-direction: column;
     height: 100%;
     width: 100%;
+}
+
+.body_main {
     background-color: rgb(41, 41, 41);
 }
 
@@ -16,6 +19,9 @@ header {
     position: relative;
     display: flex;
     flex-direction: row;
+}
+
+.header_menu {
     height: 12rem;
     border-bottom: .2rem solid gray;
 }
@@ -24,6 +30,9 @@ main {
     display: flex;
     height: 100%;
     flex-direction: column;
+}
+
+.main_menu {
     align-items: center;
     justify-content: space-evenly;
     background-color: rgb(85, 82, 82);
@@ -83,6 +92,16 @@ button {
     width: 2.5rem;
     top: 50%;
     right: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.voltar {
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
     border: 0;
     margin: 0;
     padding: 0;
