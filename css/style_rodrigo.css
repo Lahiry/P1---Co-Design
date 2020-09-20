@@ -358,3 +358,25 @@ h5{
     border-radius:1rem;
     
 }
+
+.favs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.carros_fav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+.foto_carro{
+    width:25%;
+    border: 0.1rem solid black;
+    border-radius: 10rem;
+}

@@ -1,27 +1,39 @@
 <!DOCTYPE html>
-<html lang = pt-BR>
+<html lang="pt-BR">
 <head>
-	<title>Favoritos</title>
-	<meta charset="utf-8">
+    <title>Favoritos</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style_rodrigo.css">
 </head>
-	<body>
-		<a href="tela_fusion.html"><img src="img/seta_esquerda.png" alt = 'Seta voltar'></a>
-
+<body>
+	<header>
+		<a class="voltar" href="tela_fusion.html"><img class="icone" src="../img/seta_esquerda.png" alt = 'Seta voltar'></a>
 		<h1>FAVORITOS</h1>
-        <main>
-            
-	        <h3>Fusion Hybrid</h3>
-	        <img src="img/fusion_hybrid" alt="Imagem do Fusion Hybrid">
-	        <p>R$102.000,00</p>
-	        <p>77.000 km</p>
-	        <p>2015/2016</p>
-			
-			<h3>Tesla Model S</h3>
-	        <img src="img/tesla" alt="Imagem do Tesla">
-	        <p>R$850.000,00</p>
-	        <p>0 km</p>
-	        <p>2018/2019</p>
-	    </main>
+	</header>
+    <main class="favs" >
+		<div class="carros_fav">  
+			<img class="foto_carro" src="../img/fusion_hybrid_usado.jpeg" alt="Imagem do Fusion Hybrid">
+			<div>
+				<h3>Fusion Hybrid</h3>
+				<p>R$102.000,00</p>
+				<p>77.000 km</p>
+				<p>2015/2016</p>
+			</div>
+		</div> 
 
-	</body>
+		<div class="carros_fav">
+			<img class="foto_carro" src="../img/tesla_usado.jpeg" alt="Imagem do Tesla">
+			<div>
+				<h3>Tesla Model S</h3>
+				<p>R$850.000,00</p>
+				<p>0 km</p>
+				<p>2018/2019</p>
+			</div>
+		</div>
+	</main>
+</body>
 </html>
