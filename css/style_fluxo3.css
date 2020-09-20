@@ -13,7 +13,6 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-self: center;
     padding: 1rem;
     height: 3rem;
     border-bottom: .1rem solid black;
@@ -33,9 +32,23 @@ footer{
     
 }
 
+.titulo{
+    position: relative;
+    align-self: center;
+    right: 2.5rem;
+}
+
 .seta_voltar{
+    position: absolute;
     top:0;
     left:0;
+    height: 3rem;
+    width: 3rem;
+}
+
+.seta_ir{
+    position: relative;
+    left: 17rem;
     height: 3rem;
     width: 3rem;
 }
@@ -46,7 +59,8 @@ footer{
 
 /* >>>>>>>> TELA_MONTADORA <<<<<<<< */
 .caixa_pesquisa{
-    padding: 1rem;
+    position: relative;
+    top: 0.5rem;
 }
 
 .tesla, .chevrolet, .ford {
@@ -70,8 +84,15 @@ footer{
     border: .1rem solid black;
     padding: 1rem;
     border-radius: .5rem;
+
 }
 
+.botao_filtro_fav{
+    position: absolute;
+    top: 3.5rem;
+
+
+}
 
 
 
@@ -94,7 +115,106 @@ li{
 
 
 /* >>>>>>>> TELA_FUSION <<<<<<<< */
+.info_carro,.acessorios{
+    margin-left:7rem;
+    margin-right:7rem;
+    text-align: center;
+    border: .1rem solid black;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.imagem_carro{
+    margin: 1rem;
+    padding: 1rem;
+    align-self: center;
+}
+
+.info_carro{
+    margin: 0;
+}
+
+.conjunto_chat_img{
+    align-self: flex-end;
+}
+
+.botao_img_chat{
+    width: 5rem;
+}
+
+.botao_img_fav{
+    width: 5rem;
+}
+
+.acessorios{
+    margin: 1rem;
+}
+
+.titulo_acessorio{
+    align-self: center;
+    justify-self: self-end;
+}
 
 
 
 
+/* >>>>>>>> TELA_CHAT <<<<<<<< */
+.chats{
+    flex-direction: row;
+    margin: 1rem 0.5rem;
+    border: .1rem solid black;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+
+}
+
+.foto_perfil{
+    top:0;
+    left:0;
+    height: 3rem;
+    width: 5rem;
+}
+
+.msg{
+    position: relative;
+    font-size: medium;
+}
+
+.user_name{
+    font-weight: bold;
+}
+
+
+
+
+
+/* >>>>>>>> TELA_CHAT <<<<<<<< */
+.status{
+    align-self: flex-end;
+}
+
+.conversa{
+    flex-direction: row;
+    border: .1rem solid black;
+    padding: 1rem;
+    font-size: medium;
+    border-radius: .5rem;
+}
+
+.eu{
+    margin-left: 5rem;
+}
+
+.lahiry{
+    margin-right: 5rem;
+}
+
+
+
+.typer{
+    /* position: fixed; */
+    border: .1rem solid black;
+    padding: 1rem 2rem 1rem 1rem; 
+    border-radius: .5rem;
+}
