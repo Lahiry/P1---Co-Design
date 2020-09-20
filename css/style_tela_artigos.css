@@ -2,6 +2,7 @@ html {
     height: 100%;
     width: 100%;
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -9,7 +10,6 @@ body {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    background-color: lightgray;
 }
 
 header {
@@ -52,7 +52,6 @@ p {
     top:0;
     height: 7rem;
     width: 100%;
-    background-color:rgb(70, 65, 65);
     border: 0.25rem;
     border-color: black;
     border-style: solid;
@@ -88,7 +87,6 @@ p {
     top: 7.25rem;
     height: 7rem;
     width: 100%;
-    background-color:rgb(70, 65, 65);
     border: 0.25rem;
     border-color: black;
     border-style: solid;
@@ -124,7 +122,6 @@ p {
     top:14.5rem;
     height: 7rem;
     width: 100%;
-    background-color:rgb(70, 65, 65);
     border: 0.25rem;
     border-color: black;
     border-style: solid;
@@ -160,7 +157,6 @@ p {
     top:21.75rem;
     height: 7rem;
     width: 100%;
-    background-color:rgb(70, 65, 65);
     border: 0.25rem;
     border-color: black;
     border-style: solid;
