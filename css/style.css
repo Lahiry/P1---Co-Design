@@ -10,6 +10,7 @@ html{
 a{
     text-decoration: none;
     color:black;
+    border-color: #32396E;
 }
 
 body {
@@ -38,6 +39,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border-color: #32396E;
 }
 
 .mapa{
@@ -372,9 +374,10 @@ h5{
 
 .problemas{
     padding: 2rem;
-    border-top: 0.2rem solid black;
-    border-bottom: 0.2rem solid black;
+    border-top: 0.2rem solid;
+    border-bottom: 0.2rem solid ;
     flex-grow: 1;
+    border-color: #32396E;
 }
 
 .lista_ol{
@@ -392,14 +395,17 @@ h5{
     padding: 1rem;
     align-self: center;
     font-size: 140%;
+    
 }
 
 
 .botao_sos{
     align-self: center;
     padding: 0.8rem;
-    border: 0.2rem solid black;
+    border: 0.2rem solid #D40808;
     border-radius:1rem;
+    background-color: #D40808;
+    color:white;
     
 }
 
@@ -414,7 +420,7 @@ h5{
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem;
-    border: 0.2rem solid black;
+    border: 0.2rem solid #32396E;
     border-radius: 1rem;
     margin: 0.5rem;
 }
@@ -427,7 +433,6 @@ h5{
 
 /* >>>>>>>> TELA_MONTADORA <<<<<<<< */
 .caixa_pesquisa{
-    position: relative;
     top: 0.5rem;
 }
 
@@ -487,11 +492,13 @@ li{
 .imagem_carro{
     margin: 1rem;
     padding: 1rem;
+    border-radius: 1rem;
     align-self: center;
 }
 
 .info_carro{
     margin: 0;
+    border-color: #32396E;
 }
 
 .conjunto_chat_img{
@@ -580,7 +587,7 @@ li{
     font-size: 2rem;
     color: white;
     text-decoration: none;
-    background-color: rgb(31, 168, 54);
+    background-color: #32396E;;
 }
 .a_assistencia {
     align-self: center;
@@ -591,7 +598,7 @@ li{
     font-size: 2rem;
     color: white;
     text-decoration: none;
-    background-color: rgb(255, 145, 0);
+    background-color:#32396E;
 }
 
 .botoes_login{
@@ -685,9 +692,11 @@ li{
 
 .div_h{
     border-top: 0.3rem solid black;
+    border-color: #32396E;
 }
 .div_v{
     border-left: 0.3rem solid black;
+    border-color: #32396E;
 }
 
 .main_chat{
