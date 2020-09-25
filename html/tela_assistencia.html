@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/style_tela_assistencia.css">
+    <link rel="stylesheet" href="../css/style.css">
     
 </head>
 <body>
@@ -14,16 +14,37 @@
         <input type="text" id="pesquisa_chave" name="pesquisa_chave" placeholder="Pequisa por Palavra-Chave">
         <button onclick="location.href='tela_artigos.html'" type="button">Buscar</button>
     </header>
-    <main>
-        <figure>
-            <img class="motor" src="../img/motor.png" alt="Botão motor">
-            <img class="bateria" src="../img/bateria.png" alt="Botão bateria">
-            <img class="suspensao" src="../img/suspensao.png" alt="Botão suspensão">
-            <img class="multimidia" src="../img/multimidia.png" alt="Botão sistema de multimídia">
-            <img class="freio" src="../img/freio.jpeg" alt="Botão freio">
-            <img class="pneu" src="../img/pneu.png" alt="Botão pneu">
-        </figure>
+    <main class="lista_botoes">
+        <div class="duplas">
+            <div class="item_botoes">
+                <img class="img_botoes" src="../img/motor.png" alt="Botão motor">
+                <h4>MOTOR</h4>
+            </div>
+            <div class="item_botoes">
+                <img class="img_botoes" src="../img/bateria.png" alt="Botão bateria">
+                <h4>BATERIA</h4>
+            </div>
+        </div>
+        <div class="duplas">
+            <div class="item_botoes">
+                <img class="img_botoes" src="../img/suspensao.png" alt="Botão suspensao">
+                <h4>SUSPENSÃO</h4>
+            </div>
+            <div class="item_botoes">
+                <img class="img_botoes" src="../img/multimidia.png" alt="Botão multimidia">
+                <h4>MULTIMÍDIA</h4>
+            </div>
+        </div>
+        <div class="duplas">
+            <div class="item_botoes">
+                <img class="img_botoes" src="../img/freio.jpg" alt="Botão freio">
+                <h4>FREIO</h4>
+            </div>
+            <div class="item_botoes">
+                <img class="img_botoes" src="../img/pneu.png" alt="Botão pneu">
+                <h4>PNEU</h4>
+            </div>
+        </div>
     </main>
-    
 </body>
 </html>

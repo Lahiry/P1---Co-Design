@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/style_fluxo3.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -16,7 +16,6 @@
 			<img class = "seta_voltar" src="../img/seta_esquerda.png">
 		</a>
 		
-		
 		<div class="caixa_pesquisa">
 			<input type="text" id="pesquisa_carro" name="pesquisa_carro" placeholder="ex: Bolt">
 			<button onclick="location.href='tela_estacoes.html'" type="button">
@@ -24,31 +23,58 @@
 		</div>
 		
 		<div class="botao_filtro_fav">
-			<img src="img/botao_filtro.png" alt = 'botão filtro'>
-			<img src="img/botao_favoritos.png" alt = 'botão favoritos'>	
+			<img class = 'icone' src="../img/icone_filtro.png" alt = 'botão filtro'>
+			<img class = 'icone' src="../img/estrela_favoritos.png" alt = 'botão favoritos'>	
 		</div>
 	
 	</header>
 
 	<main>
-		<div class="tesla">
-			<img class = 'logo' src="https://via.placeholder.com/150">
-			Tesla
+		<a href="tela_ford.html">
+		<div class="empresas">
+			<img class = 'logo' src="../img/logo_ford.jpeg">
+			<h3>Ford</h3>
+			<img class="icone" src="../img/seta_direita.png" alt="Abrir montadora">
 		</div>
-		<div class="chevrolet">
-			<img class = 'logo' src="https://via.placeholder.com/150">	
-			Chevrolet
+		</a>
+		<div class="empresas">
+			<img class = 'logo' src="../img/logo_tesla.jpg">
+			<h3>Tesla</h3>
+			<img class="icone" src="../img/seta_direita.png" alt="Abrir montadora">
 		</div>
-		<div class="ford">
-			<img class = 'logo' src="https://via.placeholder.com/150">
-			<a href="tela_ford.html">Ford</a>
-		
+		<div class="empresas">
+			<img class = 'logo' src="../img/logo_chevrolet.jpg">	
+			<h3>Chevrolet</h3>
+			<img class="icone" src="../img/seta_direita.png" alt="Abrir montadora">
+		</div>
+		<div class="empresas">
+			<img class = 'logo' src="../img/logo_hyundai.png">	
+			<h3>Hyundai</h3>
+			<img class="icone" src="../img/seta_direita.png" alt="Abrir montadora">
+		</div>
+		<div class="empresas">
+			<img class = 'logo' src="../img/logo_bmw.jpg">	
+			<h3>BMW</h3>
+			<img class="icone" src="../img/seta_direita.png" alt="Abrir montadora">
+		</div>
 	</main>
 
-	<footer>
-		<img class = 'botao_anuncio' src="img/botao_anuncio.png" alt = 'botão anúncios'>
-		<img class = 'botao_vender' src="img/botao_vender.png" alt = 'botão vender'>
-		<img class = 'botao_chat' src="img/botao_chat.png" alt = 'botão de chat'>
+	<footer class="div_h">
+		<div class="div_footer">
+			<img class = 'icone' src="../img/icone_anuncios.png" alt = 'botão anúncios'>
+			<h5>ANÚNCIOS</h5>
+		</div>
+		<div class="div_v"></div>
+		<div class="div_footer">
+			<img class = 'icone' src="../img/icone_chat.png" alt = 'botão chat'>
+			<h5>CHAT</h5>
+		</div>
+		<div class="div_v"></div>
+		<div class="div_footer">
+			<img class = 'icone' src="../img/icone_vender.png" alt = 'botão vender'>
+			<h5>VENDER</h5>
+		</div>
+		
 	</footer>
 </body>
 

@@ -2,6 +2,13 @@ html{
     height: 100%;
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:black;
+}
+
+a{
+    text-decoration: none;
+    color:black;
 }
 
 body {
@@ -13,13 +20,21 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border-bottom: .2rem solid black;
+    padding: 1rem;
 }
 
 main {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .mapa{
@@ -51,6 +66,22 @@ main {
     width: 2.5rem;
     height: 2.5rem;
     margin:0.2rem;
+}
+
+.seta_voltar{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 3rem;
+    width: 3rem;
+    margin: 0.1rem;
+}
+
+.seta_ir{
+    align-self: flex-end;
+    left: 17rem;
+    height: 3rem;
+    width: 3rem;
 }
 
 .img_mapa{
@@ -106,15 +137,15 @@ main.itens{
 }
 
 .icone{
-    width: 2.0rem;
-    height: 2.0rem;
+    width: 2.5rem;
+    height: 2.5rem;
     margin:0.1rem;
 }
 
 .voltar{
     position: absolute;
-    width: 2.0rem;
-    height: 2.0rem;
+    width: 2.5rem;
+    height: 2.5rem;
     margin:0.1rem;
     left: 0;
     top:0;
@@ -157,6 +188,11 @@ p{
 
 h1{
     font-size: 230%;
+    margin: 0.3rem;
+}
+
+h2{
+    font-size: 180%;
     margin: 0.3rem;
 }
 
@@ -312,18 +348,15 @@ h5{
 .titulo_tesla{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
-    
 }
 
 .main_problemas{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-}
-.texto_tesla{
-    font-size: 350%;
 }
 
 .icone_tesla{
@@ -332,17 +365,22 @@ h5{
 }
 
 .problemas{
-    padding: 1rem;
-    border: 0.2rem solid black;
+    padding: 2rem;
+    border-top: 0.2rem solid black;
+    border-bottom: 0.2rem solid black;
+    flex-grow: 1;
 }
 
 .lista_ol{
     margin-left: 1rem;
     padding: 0.3rem;
+    flex-grow: 1;
 }
 
 .pedir_sos{
     display: flex;
+    justify-self: flex-end;
+    align-self: center;
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
@@ -379,4 +417,283 @@ h5{
     width:25%;
     border: 0.1rem solid black;
     border-radius: 10rem;
+}
+
+/* >>>>>>>> TELA_MONTADORA <<<<<<<< */
+.caixa_pesquisa{
+    position: relative;
+    top: 0.5rem;
+}
+
+.empresas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.logo{
+    height: 3rem;
+    width: 3rem;
+}
+
+.botao_anuncio, .botao_vender, .botao_chat{
+    text-align: center;
+    border: .1rem solid black;
+    padding: 1rem;
+    border-radius: .5rem;
+
+}
+
+.botao_filtro_fav{
+    margin-left: 1rem;
+}
+
+/* >>>>>>>> TELA_FORD <<<<<<<< */
+.anuncio{
+    flex-direction: row;
+    margin: 1rem 0.5rem;
+    border: .1rem solid black;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+}
+
+li{
+    font-size: small;
+}
+
+/* >>>>>>>> TELA_FUSION <<<<<<<< */
+.info_carro,.acessorios{
+    margin-left:7rem;
+    margin-right:7rem;
+    text-align: center;
+    border: .1rem solid black;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.imagem_carro{
+    margin: 1rem;
+    padding: 1rem;
+    align-self: center;
+}
+
+.info_carro{
+    margin: 0;
+}
+
+.conjunto_chat_img{
+    align-self: flex-end;
+}
+
+.botao_img_chat{
+    width: 5rem;
+}
+
+.botao_img_fav{
+    width: 5rem;
+}
+
+.acessorios{
+    margin: 1rem;
+}
+
+.titulo_acessorio{
+    align-self: center;
+    justify-self: self-end;
+}
+
+/* >>>>>>>> TELA_CHAT <<<<<<<< */
+.chats{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;;
+    margin: 1rem 0.5rem;
+    border: .1rem solid black;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+
+}
+
+.foto_perfil{
+    top:0;
+    left:0;
+    height: 3rem;
+    width: 5rem;
+}
+
+.msg{
+    position: relative;
+    font-size: medium;
+}
+
+.user_name{
+    font-weight: bold;
+}
+
+
+/* >>>>>>>> TELA_CHAT <<<<<<<< */
+.status{
+    align-self: flex-end;
+}
+
+.conversa{
+    flex-direction: row;
+    border: .1rem solid black;
+    padding: 1rem;
+    font-size: medium;
+    border-radius: .5rem;
+}
+
+.eu{
+    margin-left: 5rem;
+}
+
+.lahiry{
+    margin-right: 5rem;
+}
+
+.typer{
+    padding: 1rem;
+}
+
+.a_montadoras {
+    align-self: center;
+    margin: 1rem;
+    border: .1rem solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(31, 168, 54);
+}
+.a_assistencia {
+    align-self: center;
+    margin: 1rem;
+    border: .1rem solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(255, 145, 0);
+}
+
+.botoes_login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 160%;
+}
+
+.a_sos {
+    align-self: center;
+    margin: 1rem;
+    border: .1rem solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+}
+
+.perfil{
+    height: 8rem;
+}
+
+.fechar_menu {
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    top: 50%;
+    right: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.img_botoes {
+    height: 10rem;
+    width: 10rem;
+    margin: 1rem;
+    border: 0.15rem solid black;
+    border-radius: 100%;
+}
+
+.lista_botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.duplas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.item_botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0.5rem;
+}
+
+.artigo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+    padding: 2rem;
+    align-items: center;
+}
+
+.img_artigo{
+    width: 7rem;
+    height: 7rem;
+}
+
+.div_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem ;
+}
+
+.div_h{
+    border-top: 0.3rem solid black;
+}
+.div_v{
+    border-left: 0.3rem solid black;
+}
+
+.main_chat{
+    justify-content: flex-start;
+}
+
+.icone_enviar{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.footer_enviar{
+    justify-self: center;
+    align-self: center;
 }
