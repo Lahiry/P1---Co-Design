@@ -4,6 +4,7 @@ html{
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color:black;
+    background-color: #e6ecf2;
 }
 
 a{
@@ -20,8 +21,10 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-bottom: .2rem solid black;
+    border-bottom: .2rem solid #32396E;
+    background-color: #8489AE;
     padding: 1rem;
+    color: white;
 }
 
 main {
@@ -87,29 +90,31 @@ footer{
 .img_mapa{
     width:100%;
     height:92%;
+    border-radius: 1rem;
 }
 
 .botao_estacao{
     position: absolute;
     color:white;
-    background-color: black;
+    background-color: #32396E;
     font-size: 150%;
     padding: 1rem;
     border-radius: 2rem;
+    border: #32396E;
     bottom:0;
     align-self: center;
     width:100%;
 }
 
 .pop_up{
-    background-color: white;
+    background-color: #e6ecf2;
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-self: center;
     border-width: 0.1rem;
     border-style: solid;
-    border-color: black;
+    border-color: 32396E;
     padding: 1rem;
     border-radius: 1rem;
 }
@@ -117,19 +122,19 @@ footer{
 .botao_pop_up{
     font-size: 180%;
     margin: 1rem;
+    border: 0.3rem solid #32396E; 
     border-radius: 1rem;
-    border-width: 0.1rem;
-    border-style: solid;
-    border-color: black;
+    background-color: #32396E;
+    color: white;
 }
 
 .x{
     align-self: flex-end;
     font-size: 150%;
-    border-width: 0.1rem;
-    border-style: solid;
-    border-color: black;
+    border: 0.1rem solid #32396E;
     border-radius: 1rem;
+    background-color: #32396E;
+    color: white;
 }
 
 main.itens{
@@ -235,6 +240,7 @@ a.opcoes{
 .icone_grande{
      width: 9rem;
      height: 9rem;
+     border-radius: 1rem;
 }
 
 div.caixa_pesquisa{
@@ -267,7 +273,7 @@ h5.checks{
 }
 
 .check{
-    border: 0.1rem solid black;
+    border: 0.1rem solid #32396E;
     border-radius: 1rem;
 }
 
@@ -605,7 +611,7 @@ li{
     font-size: 2rem;
     color: white;
     text-decoration: none;
-    background-color: red;
+    background-color: #D40808;
 }
 
 .perfil{
